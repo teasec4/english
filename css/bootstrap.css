@@ -7078,11 +7078,14 @@ textarea.form-control-lg {
 }
 
 .border-my1 {
-  border-color: #479AE6 !important;
+  border-color: #11af74 !important;
 }
 
 .border-my2 {
-  border-color: #E6655F !important;
+  border-color: #e0554f !important;
+}
+.border-nav {
+  border-color: #221e2e !important;
 }
 
 .border-1 {
