@@ -7999,7 +7999,7 @@ textarea.form-control-lg {
 }
 .bg-nav{
   --bs-bg-opacity: 1;
-  background-color:#221e2e  !important;
+  background-color:#2C1E34  !important;
 }
 .bg-my1{
   --bs-bg-opacity: 1;
@@ -8014,6 +8014,11 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: #9da8c6 !important;
 }
+.bg-body3 {
+  --bs-bg-opacity: 1;
+  background-color: #F2F6F7 !important;
+}
+
 .bg-my1 {
   --bs-bg-opacity: 1;
   background-color: #11af74 !important;
