@@ -7021,6 +7021,14 @@ textarea.form-control-lg {
   border-color: #fff !important;
 }
 
+.border-my1 {
+  border-color: #479AE6 !important;
+}
+
+.border-my2 {
+  border-color: #E6655F !important;
+}
+
 .border-1 {
   border-width: 1px !important;
 }
@@ -7913,6 +7921,18 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+.bg-main {
+  --bs-bg-opacity: 1;
+  background-color: #DCE66A !important;
+}
+.bg-my1 {
+  --bs-bg-opacity: 1;
+  background-color: #479AE6 !important;
+}
+.bg-my2 {
+  --bs-bg-opacity: 1;
+  background-color: #E6655F !important;
 }
 
 .bg-secondary {
