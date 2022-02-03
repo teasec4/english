@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="css/bootstrap.css" rel="stylesheet">
     <title>Title</title>
+    <link rel="stylesheet" href="about.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="forindex.css" rel="stylesheet">
 </head>
@@ -69,13 +70,23 @@
     </nav>
 </header>
 
-
+<!-- padding top -->
 <div class="container2">
-
 </div>
 
+<div class="containerP" id="containerP">
+    <a class="btn" id="openHeroes">
+        <img src="res/heroes.png">
+    </a>
+    <a class="btn " id="openProjects">
+        <img src="res/projects.png">
+    </a>
+</div>
 
-<div class="mt-5 row row-cols-md-auto g-3 m-auto align-items-center justify-content-center w-75 mt-2">
+<!-- Heroes -->
+
+<div class="mt-5 row row-cols-md-auto g-3 m-auto align-items-center justify-content-center
+w-75 mt-2 d-none containerP" id="containerHeroes">
     <div class="col-sm-auto bg-nav shadow p-1 rounded m-1">
         <div class="text-center">
             <img class="img-fluid" src="res/Maxim%20Kovalev.jpg" width="250">
@@ -109,6 +120,8 @@
                 </svg>
             </a>
         </div>
+
+
     </div>
 
     <div class="col-sm-auto bg-nav shadow p-1 rounded m-1 ">
@@ -146,9 +159,25 @@
         </div>
     </div>
 
+    <a class="btn btn-lg btn-danger" id="back1">
+        back
+    </a>
+
+</div>
+
+<!-- projects -->
+
+<div class="containerP d-none" id="containerProject">
+    <p class="fs-1">
+        Test projects
+    </p>
+    <a class="btn btn-lg btn-danger" id="back2">
+        back
+    </a>
 </div>
 
 
+<!-- Footer  -->
 <div class="container mt-3">
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom border-secondary pb-3 mb-3">
@@ -183,7 +212,7 @@
     </footer>
 </div>
 
-
+<script src="about.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

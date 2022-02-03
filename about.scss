@@ -1,0 +1,36 @@
+
+@media (min-width: 1400px){
+  .containerP{
+    padding: 22em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .containerP{
+    padding: 21em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .containerP{
+    padding: 20em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .containerP{
+    padding: 17em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+@media (min-width: 0px) and (max-width: 575px) {
+  .containerP{
+    padding: 12em 0;
+    align-content: center;
+    text-align: center
+  }
+}
