@@ -1,23 +1,21 @@
 
 .container2 {
-    margin: 4em 0;
+    margin-top: 4em;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1000px)  {
     .container2 {
-        margin: 8em 0;
-
+        margin-top: 5em;
     }
 }
 
 @media (max-width: 830px) and (min-width: 620px) {
     .container2 {
-        margin: 5em 0;
-
+        margin-top: 5em;
     }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) and (min-width: 0px){
     .container2 {
         margin: 4em 0;
     }
@@ -133,14 +131,14 @@
 
 @media (min-width: 1400px){
     .containerMidl {
-        margin: 3em 0;
+        margin: 3em 0 0 0;
         padding: 10em 0 20em 0;
 
     }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
     .containerMidl {
-        margin: 1em 0;
+        margin: 1em 0 0 0;
         padding: 5em 0 11em 0;
 
     }
@@ -148,7 +146,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .containerMidl {
-        margin: 1em 0;
+        margin: 1em 0 0 0;
         padding: 4em 0;
 
     }
@@ -164,6 +162,39 @@
     .containerMidl {
         margin: 0 0;
         padding: 1em 0 5em 0;
+    }
+}
+
+.smalHeader{
+    font-family: 'Outfit', sans-serif;
+}
+
+@media (min-width: 1400px){
+    .smalHeader{
+        font-family: 'Outfit', sans-serif;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    .smalHeader{
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .smalHeader{
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+@media (min-width: 576px )  and (max-width: 991px){
+    .smalHeader{
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .smalHeader{
+        font-family: 'Outfit', sans-serif;
     }
 }
 
