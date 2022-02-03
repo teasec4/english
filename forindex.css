@@ -47,8 +47,8 @@
     .header2 {
         font-family: 'Outfit', sans-serif;
         font-size: 2em;
-        margin-bottom: 4em;
-        padding-bottom: 3em;
+        margin-bottom: 2.5em;
+        padding-bottom: 2em;
     }
 }
 
@@ -85,14 +85,15 @@
 @media (min-width: 0px) and (max-width: 575px) {
     .header {
         font-family: 'Outfit', sans-serif;
-        font-size: 2em;
+        font-size: 1.6em;
         padding-top: 1em;
     }
 
     .header2 {
         font-family: 'Outfit', sans-serif;
-        font-size: 1em;
-        padding-bottom: 2em;
+        margin-top: 1em;
+        font-size: 1.1em;
+        padding-bottom: 1em;
     }
 }
 
@@ -161,7 +162,7 @@
 @media (min-width: 0px) and (max-width: 575px) {
     .containerMidl {
         margin: 0 0;
-        padding: 1em 0 5em 0;
+        padding: 1em 0 2em 0;
     }
 }
 
@@ -195,6 +196,37 @@
 @media (min-width: 0px) and (max-width: 575px) {
     .smalHeader{
         font-family: 'Outfit', sans-serif;
+    }
+}
+
+
+
+@media (min-width: 1400px){
+    .wHead{
+        width: 90%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    .wHead{
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wHead{
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px )  and (max-width: 991px){
+    .wHead{
+        width: 80%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .wHead{
+        width: 90%;
     }
 }
 
