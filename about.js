@@ -11,8 +11,8 @@ let back2 = document.getElementById('back2')
 
 openHeroes.addEventListener('click', function () {
     conP.className = "d-none";
-   conHeroes.className = "mt-5 row row-cols-md-auto g-3 m-auto align-items-center justify-content-center\n" +
-       "w-75 mt-2 containerP";
+   conHeroes.className = "row row-cols-md-auto g-3 m-auto align-items-center justify-content-center\n" +
+       "w-75  containerP";
 
 })
 

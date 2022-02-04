@@ -1,36 +1,139 @@
 
-@media (min-width: 1400px){
-  .containerP{
+@media (min-width: 1400px) {
+  .containerP {
     padding: 22em 0;
     align-content: center;
     text-align: center
   }
 }
+
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .containerP{
+  .containerP {
     padding: 21em 0;
     align-content: center;
     text-align: center
   }
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
-  .containerP{
+  .containerP {
     padding: 20em 0;
     align-content: center;
     text-align: center
   }
 }
+
 @media (min-width: 576px) and (max-width: 991px) {
-  .containerP{
+  .containerP {
     padding: 17em 0;
     align-content: center;
     text-align: center
   }
 }
+
 @media (min-width: 0px) and (max-width: 575px) {
-  .containerP{
-    padding: 12em 0;
+  .containerP {
+    padding: 14em 0;
     align-content: center;
     text-align: center
   }
 }
+
+.fill {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fill::after {
+
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.fill:hover{
+  color: black;
+}
+.fill:hover::after {
+
+  top: 0px;
+  left: 0px;
+}
+/* End of Fill Button  */
+.fill2 {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+.fill2::after {
+  content: "";
+  background-color: #66f2d5;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.fill2:hover{
+  color: black;
+}
+.fill2:hover::after {
+  top: 0px;
+  left: 0px;
+}
+/* End of Fill Button  */
+
+
+.btn-outline-dark2 {
+  color: #212529;
+  border-color: #212529;
+}
+.btn-outline-dark2:hover {
+  color: #fff;
+  background-color: #dc460c;
+  border-color: #dc460c;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 5px 25px;
+  transform: translateY(-5px);
+}
+.btn-check:focus + .btn-outline-dark2, .btn-outline-dark2:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-check:checked + .btn-outline-dark2, .btn-check:active + .btn-outline-dark2, .btn-outline-dark2:active, .btn-outline-dark2.active, .btn-outline-dark2.dropdown-toggle.show {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.btn-check:checked + .btn-outline-dark2:focus, .btn-check:active + .btn-outline-dark2:focus, .btn-outline-dark2:active:focus, .btn-outline-dark2.active:focus, .btn-outline-dark2.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.5);
+}
+.btn-outline-dark2:disabled, .btn-outline-dark2.disabled {
+  color: #212529;
+  background-color: transparent;
+}
+

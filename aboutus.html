@@ -75,26 +75,29 @@
 </div>
 
 <div class="containerP" id="containerP">
-    <a class="btn" id="openHeroes">
-        <img src="res/heroes.png">
-    </a>
-    <a class="btn " id="openProjects">
-        <img src="res/projects.png">
-    </a>
+    <div class="row row-cols-md-auto g-3 m-auto align-items-center justify-content-center">
+        <a class="fill m-2"  id="openHeroes">
+            Heroes
+        </a>
+        <a class="fill2 m-2" id="openProjects">
+            Projects
+        </a>
+    </div>
+
 </div>
 
 <!-- Heroes -->
 
-<div class="mt-5 row row-cols-md-auto g-3 m-auto align-items-center justify-content-center
-w-75 mt-2 d-none containerP" id="containerHeroes">
-    <div class="col-sm-auto bg-nav shadow p-1 rounded m-1">
+<div class="row row-cols-md-auto g-3 m-auto align-items-center justify-content-center
+w-75 d-none containerP" id="containerHeroes">
+    <div class="col-sm-auto bg-nav shadow p-1 rounded">
         <div class="text-center">
             <img class="img-fluid" src="res/Maxim%20Kovalev.jpg" width="250">
         </div>
         <div class="">
             <p class="lead text-light"> Maxim Kovalev </p>
         </div>
-        <div class="container">
+        <div class="">
             <a class="p-2 " href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-instagram text-secondary" viewBox="0 0 16 16">
@@ -120,18 +123,16 @@ w-75 mt-2 d-none containerP" id="containerHeroes">
                 </svg>
             </a>
         </div>
-
-
     </div>
 
-    <div class="col-sm-auto bg-nav shadow p-1 rounded m-1 ">
+    <div class="col-sm-auto bg-nav shadow p-1 rounded">
         <div class="text-center">
             <img class="img-fluid" src="res/fotoMasha.jpg" width="250">
         </div>
         <div class="">
             <p class="lead text-light">Maria Kovaleva</p>
         </div>
-        <div class="container">
+        <div class="">
             <a class="p-2 " href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-instagram text-secondary" viewBox="0 0 16 16">
@@ -158,7 +159,6 @@ w-75 mt-2 d-none containerP" id="containerHeroes">
             </a>
         </div>
     </div>
-
     <a class="btn btn-lg btn-danger" id="back1">
         back
     </a>
