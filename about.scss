@@ -39,6 +39,49 @@
   }
 }
 
+
+/* container 2  */
+
+@media (min-width: 1400px) {
+  .containerP2 {
+    padding: 10em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .containerP2 {
+    padding: 10em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .containerP2 {
+    padding: 10em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .containerP2 {
+    padding: 7em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .containerP2 {
+    padding: 5em 0;
+    align-content: center;
+    text-align: center
+  }
+}
+
 .fill {
   text-decoration: none;
   color: black;

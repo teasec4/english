@@ -11,14 +11,14 @@ let back2 = document.getElementById('back2')
 
 openHeroes.addEventListener('click', function () {
     conP.className = "d-none";
-   conHeroes.className = "row row-cols-md-auto g-3 m-auto align-items-center justify-content-center\n" +
-       "w-75  containerP";
+   conHeroes.className = "align-items-center justify-content-center\n" +
+       " containerP2";
 
 })
 
 openProjects.addEventListener('click', function () {
     conP.className = "d-none";
-    conProjects.className = "containerP";
+    conProjects.className = "containerP2";
 
 })
 
